@@ -83,5 +83,11 @@
   gap: 2rem;
   /* background-color: gray; */
   color: aliceblue;
+
+  @media screen and (max-width: 800px) {
+    
+  grid-template-columns: repeat(2, 1fr);
+
+  }
 }
 
