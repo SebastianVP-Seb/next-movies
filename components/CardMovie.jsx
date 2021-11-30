@@ -1,13 +1,23 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
+import Router from 'next/router';
 
-function CardMovie({movie}) {
-    const {id, title, overview, background} =movie;
+function CardMovie({item}) {
 
+    // , url:{query:{id, title}}
+
+    console.log(item);
     return (
-        <div>
-            
+        <div 
+            onClick={(e)=>{
+            Router.push('/peliculas/[id]', `/peliculas/${item.id}`)
+        }}
+        >
+         
+         <Image src={item.imageUrl} width={250} height={270} /> 
+             <h4>{item.title}</h4>
         </div>
-    )
-}
+    );
+};
 
 export default CardMovie;

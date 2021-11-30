@@ -20,7 +20,6 @@ function Slider() {
                     )
                 })
             }
-            
         </Carousel>
     );
 };
@@ -28,17 +27,19 @@ function Slider() {
 export default Slider;
 
 function Movie({movie}) {
-    const {id, title, overview, background} =movie;
+    const {id, title, overview, background, trailerUrl} =movie;
 
     return (
         <div className='slider_movie' className={styles.slider}
-             style={{backgroundImage:`url('${background}')`}} >
-                 <div className='slider_movie-info' className={styles.slider_movie_info} >
-                     <div className={styles.slider_movie_datos}>
-                         <h3>{title}</h3>
-                         <p>{overview}</p>
-                     </div>
-                 </div>
+             style={{backgroundImage:`url('${background}')`, backgroundRepeat: 'no-repeat', width: '100%', 
+                    backgroundSize: 'cover', height: '100vh' }} >
+                <div className='slider_movie-info' className={styles.slider_movie_info} >
+                    <div className={styles.slider_movie_datos}>
+                        <h3 className={styles.h3} >{title}</h3>
+                        <p>{overview}</p>
+                        <a href={trailerUrl}>Ver trailer</a>
+                    </div>
+                </div>
         </div>
     )
 }

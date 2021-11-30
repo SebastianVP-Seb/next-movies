@@ -5,7 +5,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Annabelle 1',
         imageUrl: '/terror/Annabelle1.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=paFgQNPGlsg',
         overview: 'John Form encuentra el regalo perfecto para Mia, su mujer embarazada: una preciosa muñeca vintage llamada Annabelle. Una noche, una secta satánica les ataca brutalmente. Además, provocan que un ente maligno se apodere de Annabelle.',
         year: '2014'
       },
@@ -13,7 +13,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Annabelle 2: la creación',
         imageUrl: '/terror/annabelle2.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=FIdzGOMbVss',
         overview: 'Doce años después de la muerte de su hija y aún tremendamente doloridos por su perdida, un fabricante de muñecas y su mujer acogen en su casa a una monja y a seis niñas huérfanas. Allí, la muñeca Annabelle, poseída por un espíritu, ataca a las niñas huérfanas.',
         year: '2017'
       },
@@ -21,7 +21,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Annabelle 3: vuelve a casa',
         imageUrl: '/terror/annabelle3.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=KUnKWjeQA9A',
         overview: 'Ed y Lorraine Warren tratan de encerrar bajo llave a Annabelle, una muñeca poseída. Como demonólogos la colocaran en una vitrina bendecida como medida de seguridad, sin embargo, una noche terrorífica Annabelle despertará a otros espíritus malignos que se encuentran en la habitación y que tendrán una nueva fijación: la hija pequeña del matrimonio y sus amigos.',
         year: '2019'
       },
@@ -29,7 +29,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Cementerio maldito',
         imageUrl: '/terror/Cementerio_maldito.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=t-eSNuv28XQ',
         overview: 'El Dr. Louis Creed descubre un cementerio extraño en un bosque cercano a su nueva casa. Cuando el gato de la familia muere atropellado, Louis lo entierra en ese inquietante cementerio y, lo que ocurre después, le aterra tanto como le fascina.',
         year: '2019'
       },
@@ -49,25 +49,25 @@ const TERROR=[
         id: uuidv4(),
         title: 'El conjuro',
         imageUrl: '/terror/el_conjuro1.jpg',
-        trailerUrl:'',
-        overview: '',
-        year: ''
+        trailerUrl:'https://www.youtube.com/watch?v=oUyHULb7xDI',
+        overview: 'Basada en hechos reales. Narra los encuentros sobrenaturales que vivió la familia Perron en su casa de Rhode Island a principios de los 70.',
+        year: '2013'
       },
       {
         id: uuidv4(),
         title: 'El conjuro 2',
         imageUrl: '/terror/conjuro2.jpg',
-        trailerUrl:'',
-        overview: '',
-        year: ''
+        trailerUrl:'https://www.youtube.com/watch?v=cuDBjj_Gs0M',
+        overview: 'Ed y Lorraine Warren, renombrados demonólogos e investigadores de lo paranormal, se enfrentan de nuevo a las fuerzas infernales. En esta ocasión, viajan hasta el norte de Londres para tratar de ayudar a una madre y sus cuatro hijos, quienes habitan en una casa plagada de espíritus malignos.',
+        year: '2016'
       },
       {
         id: uuidv4(),
         title: 'El conjuro 3',
         imageUrl: '/terror/Elconjuro3.jpg',
-        trailerUrl:'',
-        overview: '',
-        year: ''
+        trailerUrl:'https://www.youtube.com/watch?v=S8nlMJfE6pc',
+        overview: 'Los investigadores de fenómenos paranormales Ed y Lorraine Warren se enfrentan a un nuevo caso: el de un hombre acusado de un terrible asesinato, que asegura haber sido poseído por un demonio.',
+        year: '2021'
       },
       {
         id: uuidv4(),
@@ -126,7 +126,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'It: capítulo 2',
         imageUrl: '/terror/it_2.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=woh3bk8DXVo',
         overview: 'En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del Club de los Perdedores, que ahora están más alejados unos de otros.',
         year: '2019'
       },
@@ -134,7 +134,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Historias de miedo para contar en la oscuridad',
         imageUrl: '/terror/Historias_de_miedo_para_contar_en_la_oscuridad.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=OwshkT4C3RM',
         overview: 'La familia Bellows y su sombra ha aumentado en Mill Valley, ya que las historias de terror de la joven Sarah empiezan a cobrar realidad. Un grupo de adolescentes debe resolver el misterio que rodea a una serie de repentinas y macabras muertes que suceden en su pueblo.',
         year: '2019'
       },

@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import Layout from '../components/Layout';
 import ListaPeliculas from '../components/ListaPeliculas';
 import SUSPENSO from '../db/suspenso';
+import Head from 'next/head';
+
 
 function suspenso() {
 
@@ -9,6 +11,9 @@ function suspenso() {
 
     return (
         <Layout>
+            <Head>
+                <title>Suspenso</title>
+            </Head>
 
             <ListaPeliculas arreglo={suspenso} />
     

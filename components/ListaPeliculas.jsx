@@ -1,21 +1,18 @@
 import React from 'react';
-import Image from 'next/image';
-import Router from 'next/router';
+import CardMovie from './CardMovie';
+import styles from '../styles/Home.module.css'
 
 function ListaPeliculas({arreglo}) {
 
+    console.log(arreglo)
+
     return (
-        <div>
+        <div className={styles.contenedorPeliculas}>
             {
                 arreglo.map((item)=>{
                     return (
-                        <div key={item.id} 
-                            onClick={()=>{
-                            Router.push('/peliculas/[id]', `/peliculas/${arreglo.id}`)
-                        }}
-                        >
-                            <Image src={item.imageUrl} width={70} height={70} />
-                            <h4>{item.title}</h4>
+                        <div key={item.id}>
+                            <CardMovie item={item} />
                         </div>
                     );
                 })

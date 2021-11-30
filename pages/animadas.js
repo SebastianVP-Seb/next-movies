@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import Layout from '../components/Layout';
 import ListaPeliculas from '../components/ListaPeliculas';
 import ANIMADAS from '../db/animadas';
+import Head from 'next/head';
+
 
 function animadas() {
 
@@ -9,6 +11,10 @@ function animadas() {
 
     return (
         <Layout>
+
+            <Head>
+                <title>Animadas</title>
+            </Head>
 
             <ListaPeliculas arreglo={animadas} />
             
