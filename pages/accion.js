@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
 import Layout from '../components/Layout';
-import ACCION from '../db/accion';
 import ListaPeliculas from '../components/ListaPeliculas';
 import Head from 'next/head';
-
+import ACCION from '../db/accion';
 
 function accion() {
-
-    const [accion, setAccion]=useState(ACCION);
 
     return (
         <Layout>
@@ -15,9 +11,7 @@ function accion() {
                 <title>Acción</title>
             </Head>
 
-            
-
-            <ListaPeliculas  arreglo={accion} />
+            <ListaPeliculas  arreglo={ACCION} />
             
         </Layout>
     );

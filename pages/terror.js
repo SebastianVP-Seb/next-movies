@@ -1,13 +1,9 @@
-import React, { useState } from 'react'
 import Layout from '../components/Layout';
-import TERROR from '../db/terror';
 import ListaPeliculas from '../components/ListaPeliculas';
 import Head from 'next/head';
-
+import TERROR from '../db/terror';
 
 function terror() {
-
-    const [terror, setTerror]=useState(TERROR);
 
     return (
         <Layout>
@@ -15,7 +11,7 @@ function terror() {
                 <title>Terror </title>
             </Head>
         
-            <ListaPeliculas arreglo={terror} />
+            <ListaPeliculas arreglo={TERROR} />
             
         </Layout>
     )

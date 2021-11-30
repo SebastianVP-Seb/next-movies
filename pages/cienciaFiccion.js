@@ -1,13 +1,9 @@
-import React, { useState } from 'react'
 import Layout from '../components/Layout';
 import ListaPeliculas from '../components/ListaPeliculas';
-import CIENCIA_FICCION from '../db/ciencia-ficcion';
 import Head from 'next/head';
-
+import CIENCIA_FICCION from '../db/ciencia-ficcion';
 
 function cienciaFiccion() {
-
-    const [ficcion, setFiccion]=useState(CIENCIA_FICCION);
 
     return (
         <Layout>
@@ -15,7 +11,7 @@ function cienciaFiccion() {
                 <title>Ciencia Ficción</title>
             </Head>
 
-            <ListaPeliculas  arreglo={ficcion} />
+            <ListaPeliculas  arreglo={CIENCIA_FICCION} />
             
         </Layout>
     )
