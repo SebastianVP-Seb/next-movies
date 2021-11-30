@@ -77,7 +77,7 @@ const ROMANCE=[
         id: uuidv4(),
         title: 'Votos de amor',
         imageUrl: '/romance/votos_de_amor.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=5QA9L8D5JUs',
         overview: 'Un accidente de coche deja a Paige en coma, y cuando se despierta, ha perdido la memoria y no reconoce a su marido, con el que llevaba poco tiempo casada. A partir de ese momento, el joven tendrá que volver a conquistar su corazón.',
         bg: '/romance/bg/.jpg',
         year: '2012'
@@ -101,7 +101,7 @@ const ROMANCE=[
         id: uuidv4(),
         title: 'Más allá del tiempo',
         imageUrl: '/romance/mas_alla_del_tiempo.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=3_8WZxHScMk',
         overview: 'Clare ha estado enamorada de Henry toda su vida. El problema es que Henry tiene una anomalía genética que lo condena a vivir su vida en una escala de tiempo cambiante y viajar al pasado y futuro, por lo que Clare nunca sabe cuándo podrán verse.',
         bg: '/romance/bg/.jpg',
         year: '2009'

@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Layout from '../../components/Layout';
 import ACCION from '../../db/accion';
 import ROMANCE from '../../db/romance';
@@ -22,19 +21,18 @@ function movieProfile({query}) {
             {/* style={{backgroundImage: `url(${filtro.imageUrl})`}} */}
 
             <div className={styles.contenedorImagen} >
-                <div className={styles.div_imagen} >
+                {/* <div className={styles.div_imagen} >
                     {/* <Image className={styles.imagen_sola} src={`${filtro.imageUrl}`} alt='Imagen-Película'
                             width='100%' height='100%' /> */}
 
-                </div>
-                <div className={styles.imagen_datos}>
-                    <h3>{filtro.title}</h3>
-                    <h4>{filtro.year}</h4>
+                {/* </div> */}
+                {/* <div className={styles.imagen_datos}> */}
+                    <h2>{filtro.title}</h2>
+                    <h3>{filtro.year}</h3>
                     <p>{filtro.overview}</p>
                     <a href={filtro.trailerUrl} target='_blank' rel="noreferrer">Ver trailer</a>
-                </div>
+                {/* </div> */}
             </div>
-            
         </Layout>
     );
 };

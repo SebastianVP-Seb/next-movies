@@ -81,7 +81,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Doctor sueño',
         imageUrl: '/terror/Doctor_Sue_o.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=gIjWO7tWgoo',
         overview: 'Dan, alcohólico y traumatizado por lo que le pasó siendo un niño en el hotel Overlook, conoce a Abra, una adolescente que posee el mismo don que él. Dan tratará de salvar a Abra de un grupo de siniestros personajes que ansían la inmortalidad y aspiran alcanzarla alimentándose de los poderes psíquicos de gente como ellos.',
         year: '2019'
       },
@@ -89,14 +89,14 @@ const TERROR=[
         id: uuidv4(),
         title: 'El legado del diablo',
         imageUrl: '/terror/El_Legado_Del_Diablo.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=8_eJ-568tJw',
         overview: 'Después de la muerte de la matriarca de la familia Graham, su hija, Annie, se muda a la casa con su familia. Annie espera olvidar los problemas que tuvo en su infancia allá, pero todo se tuerce cuando su hija empieza a ver figuras fantasmales.',
         year: '2018'
       },          {
         id: uuidv4(),
         title: 'Ruega por nosotros',
         imageUrl: '/terror/Ruega_por_nosotros.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=oxxPde95ajw',
         overview: 'Un periodista con poca suerte descubre una serie de milagros en un pueblo de Nueva Inglaterra. Después de investigar los acontecimientos con el objetivo de volver al estrellado descubre que el pueblo esconde algo muy oscuro.',
         year: '2021'
       },          
@@ -110,7 +110,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Halloween: Kills',
         imageUrl: '/terror/halloween_kills.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=PVWa3UrGD1w',
         overview: 'La saga de Michael Myers y Laurie Strode continúa en el próximo capítulo emocionante de la serie de Halloween.',
         year: '2021'
       },
@@ -118,7 +118,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'It: capítulo 1',
         imageUrl: '/terror/It-2017.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=fP4BBZ76DGg',
         overview: 'Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.',
         year: '2017'
       },
@@ -142,7 +142,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Los remanentes',
         imageUrl: '/terror/the_remains.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=7Q1NkbGCmas',
         overview: 'Tras su reciente mudanza, los miembros de una familia son poseídos por un espíritu malévolo tras encontrar unas antigüedades en el ático de su nueva casa. El espíritu, a medida que los posee, se vuelve cada vez más poderoso.',
         year: '2016'
       },
@@ -150,7 +150,7 @@ const TERROR=[
         id: uuidv4(),
         title: 'Déjanos entrar',
         imageUrl: '/terror/letusin.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=QhBPB9BUzKs',
         overview: 'Una enérgica niña de doce años y su mejor amigo buscan descubrir las repentinas desapariciones de varios adolescentes perdidos en su pequeña ciudad. Al darse cuenta de que podría estar ocurriendo algo más profundo, Emily y Christopher podrían enfrentarse a fuerzas que ni siquiera pueden imaginar.',
         year: '2021'
       },

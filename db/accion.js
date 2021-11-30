@@ -142,7 +142,7 @@ const ACCION=[
         id: uuidv4(),
         title: 'Fast&Furious 1',
         imageUrl: '/accion/f&f1.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=2TAOizOnNPo',
         overview: 'Cada noche, Los Ángeles es testigo de alguna carrera de coches. Últimamente ha aparecido un nuevo corredor, todos saben que es duro y que es rápido, pero lo que no saben es que es un detective con la determinación de salir victorioso.',
         year: '2001'
       },
@@ -150,7 +150,7 @@ const ACCION=[
         id: uuidv4(),
         title: 'Fast&Furious 2',
         imageUrl: '/accion/f&f2.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=8gf7FEmBDDA',
         overview: 'Brian O Conner ayuda a la policía de Miami y se infiltra en el mundo de las carreras ilegales, esperando así redimirse ante sus superiores.',
         year: '2003'
       },
@@ -182,7 +182,7 @@ const ACCION=[
         id: uuidv4(),
         title: 'Fast&Furious 7',
         imageUrl: '/accion/f&f7.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=JsPb7usd4cU',
         overview: 'Hace un año que Dominic y Brian fueron indultados y pudieron regresar a los Estados Unidos. Después de su llegada desean adaptarse a su nueva vida dentro de la legalidad, pero las cosas no son tan fáciles. Dom quiere acercarse a Letty y Brian se acostumbra a la vida en una urbanización con Mia y su hijo.',
         year: '2015'
       },
@@ -207,7 +207,7 @@ const ACCION=[
         id: uuidv4(),
         title: 'Fury',
         imageUrl: '/accion/fury.jpg',
-        trailerUrl:'',
+        trailerUrl:'https://www.youtube.com/watch?v=DNHuK1rteF4',
         overview: 'Al mando del veterano sargento Wardaddy, una brigada de cinco soldados americanos a bordo de un tanque, luchan contra un ejército nazi al borde de la desesperación ya que los alemanes sabían que su derrota estaba ya cantada por aquel entonces.',
         year: '2014'
       },
@@ -233,12 +233,14 @@ const ACCION=[
       //   imageUrl: '',
       //   trailerUrl:''
       // },
-      // {
-      //   id: uuidv4(),
-      //   title: 'Jack Reacher 2',
-      //   imageUrl: '',
-      //   trailerUrl:''
-      // },
+      {
+        id: uuidv4(),
+        title: 'Jack Reacher: sin regreso',
+        imageUrl: '/accion/jack2.jpg',
+        trailerUrl:'https://www.youtube.com/watch?v=glaiRwEPJzw',
+        overview: 'La comandante Susan Turner es acusada de traición y Reacher descubre que ella es el objetivo de una gran conspiración gubernamental. Con la ayuda de Turner y de un nuevo misterioso aliado, Reacher lo arriesga todo para derrotar a una poderosa organización que no se detendrá ante nada para proteger sus secretos.',
+        year: '2016'
+      },
       {
         id: uuidv4(),
         title: 'Kingsman',
