@@ -25,7 +25,7 @@ const ESTRENOS=[
     imageUrl: '/terror/Historias_de_miedo_para_contar_en_la_oscuridad.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=OwshkT4C3RM',
     overview:'La familia Bellows y su sombra ha aumentado en Mill Valley, ya que las historias de terror de la joven Sarah empiezan a cobrar realidad. Un grupo de adolescentes debe resolver el misterio que rodea a una serie de repentinas y macabras muertes que suceden en su pueblo.',
-    background:'/estrenos/Purga_infinita.jpeg',
+    background:'/estrenos/historiasbg.jpg',
     year: '2019'
   },
   {

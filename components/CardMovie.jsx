@@ -13,8 +13,10 @@ function CardMovie({item}) {
             Router.push('/peliculas/[id]', `/peliculas/${item.id}`)
         }}
         >
-         
-         <Image src={item.imageUrl} width={250} height={270} alt='Imagen-Película'/> 
+         <div className="contenedor-imagen-card">
+
+            <Image src={item.imageUrl} width={250} height={270} alt='Imagen-Película'/> 
+         </div>
              <h4>{item.title}</h4>
         </div>
     );

@@ -22,8 +22,9 @@ function movieProfile({query}) {
             {/* style={{backgroundImage: `url(${filtro.imageUrl})`}} */}
 
             <div className={styles.contenedorImagen} >
-                <div className={styles.div_imagen}>
-                    <Image className={styles.imagen_sola} src={`${filtro.imageUrl}`} alt='Imagen-Película'/>
+                <div className={styles.div_imagen} className='contenedor-imagen-card' >
+                    {/* <Image className={styles.imagen_sola} src={`${filtro.imageUrl}`} alt='Imagen-Película'
+                            width='100%' height='100%' /> */}
 
                 </div>
                 <div className={styles.imagen_datos}>

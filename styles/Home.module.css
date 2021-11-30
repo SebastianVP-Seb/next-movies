@@ -10,7 +10,6 @@
   @media only screen and (max-width: 480px) {
     flex-wrap: wrap;
     background-color: rgb(17, 17, 17);
-
   }
 }
 
@@ -44,7 +43,6 @@
   width: 80%;
   margin: 5rem auto;
   height: 70vh;
-  
 }
 
 .div_imagen {
@@ -89,5 +87,10 @@
   grid-template-columns: repeat(2, 1fr);
 
   }
+}
+
+.contenedor-imagen-card {
+  width: 50%;
+  height: 100%;
 }
 
