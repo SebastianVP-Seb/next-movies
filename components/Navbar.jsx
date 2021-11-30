@@ -1,10 +1,9 @@
-import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
 function Navbar() {
     return (
-        <div className='navbar' className={styles.navbar}>
+        <div className={styles.navbar}>
 
 <           Link href="/" exact>
                 <a >Home</a>
@@ -32,7 +31,6 @@ function Navbar() {
                 <a >Terror</a>
             </Link>
   
-
         </div>
     )
 }

@@ -14,7 +14,7 @@ function CardMovie({item}) {
         }}
         >
          
-         <Image src={item.imageUrl} width={250} height={270} /> 
+         <Image src={item.imageUrl} width={250} height={270} alt='Imagen-Película'/> 
              <h4>{item.title}</h4>
         </div>
     );

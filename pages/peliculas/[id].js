@@ -8,6 +8,7 @@ import SUSPENSO from '../../db/suspenso';
 import TERROR from '../../db/terror'
 import styles from '../../styles/Home.module.css';
 import ESTRENOS from '../../db/estrenos';
+import Image from 'next/dist/client/image';
 function movieProfile({query}) {
 
     const final=[...ACCION, ...CIENCIA_FICCION, ...ANIMADAS, ...SUSPENSO, ...TERROR, ...ROMANCE, ...ESTRENOS];
@@ -22,14 +23,14 @@ function movieProfile({query}) {
 
             <div className={styles.contenedorImagen} >
                 <div className={styles.div_imagen}>
-                    <img  className={styles.imagen_sola} src={`${filtro.imageUrl}`} />
+                    <Image className={styles.imagen_sola} src={`${filtro.imageUrl}`} alt='Imagen-Película'/>
 
                 </div>
                 <div className={styles.imagen_datos}>
                     <h3>{filtro.title}</h3>
                     <h4>{filtro.year}</h4>
                     <p>{filtro.overview}</p>
-                    <a href={filtro.trailerUrl} target='_blank'>Ver trailer</a>
+                    <a href={filtro.trailerUrl} target='_blank' rel="noreferrer">Ver trailer</a>
                 </div>
             </div>
             
