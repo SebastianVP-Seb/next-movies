@@ -1,34 +1,40 @@
 import Link from 'next/link';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 function Navbar() {
     return (
         <div className={styles.navbar}>
 
-<           Link href="/" exact>
-                <a >Home</a>
+            <Head>
+            <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+            </Head>
+            
+
+            <Link href="/" exact>
+                <a className={styles.navbar_a}>Home</a>
             </Link>
 
             <Link href="/estrenos">
-                <a >Estrenos</a>
+                <a className={styles.navbar_a}>Estrenos</a>
             </Link>
             <Link href="/accion">
-                <a >Acción</a>
+                <a className={styles.navbar_a}>Acción</a>
             </Link>
             <Link href="/animadas">
-                <a >Animadas</a>
+                <a className={styles.navbar_a}>Animadas</a>
             </Link>
             <Link href="/cienciaFiccion">
-                <a >Ciencia Ficción</a>
+                <a className={styles.navbar_a}>Ciencia Ficción</a>
             </Link>
             <Link href="/romance">
-                <a >Romance</a>
+                <a className={styles.navbar_a}>Romance</a>
             </Link>
             <Link href="/suspenso">
-                <a >Suspenso</a>
+                <a className={styles.navbar_a}>Suspenso</a>
             </Link>
             <Link href="/terror">
-                <a >Terror</a>
+                <a className={styles.navbar_a}>Terror</a>
             </Link>
   
         </div>

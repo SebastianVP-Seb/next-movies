@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css'
 import 'antd/dist/antd.css';
 import { Button } from 'antd';
 import Layout from '../components/Layout'
