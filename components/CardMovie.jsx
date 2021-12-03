@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
+import styles from '../styles/Home.module.css';
 
 function CardMovie({item}) {
 
@@ -15,9 +16,11 @@ function CardMovie({item}) {
         >
          <div className="contenedor-imagen-card">
 
-            <Image src={item.imageUrl} width={250} height={270} alt='Imagen-Película'/> 
+            <Image src={item.imageUrl} width={250} height={270} alt='Imagen-Película'
+                    className={styles.img}
+            /> 
          </div>
-             <h4>{item.title}</h4>
+             <h4 className={styles.h4} >{item.title}</h4>
         </div>
     );
 };

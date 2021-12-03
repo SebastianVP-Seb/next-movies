@@ -7,7 +7,8 @@ import SUSPENSO from '../../db/suspenso';
 import TERROR from '../../db/terror'
 import styles from '../../styles/Home.module.css';
 import ESTRENOS from '../../db/estrenos';
-import Image from 'next/dist/client/image';
+import Head from 'next/head';
+
 function movieProfile({query}) {
 
     const final=[...ACCION, ...CIENCIA_FICCION, ...ANIMADAS, ...SUSPENSO, ...TERROR, ...ROMANCE, ...ESTRENOS];
@@ -20,6 +21,8 @@ function movieProfile({query}) {
         <Layout>
             {/* style={{backgroundImage: `url(${filtro.imageUrl})`}} */}
 
+            <Head><link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"/></Head>
+
             <div className={styles.contenedorImagen} >
                 {/* <div className={styles.div_imagen} >
                     {/* <Image className={styles.imagen_sola} src={`${filtro.imageUrl}`} alt='Imagen-Película'
@@ -30,7 +33,9 @@ function movieProfile({query}) {
                     <h2>{filtro.title}</h2>
                     <h3>{filtro.year}</h3>
                     <p>{filtro.overview}</p>
-                    <a href={filtro.trailerUrl} target='_blank' rel="noreferrer">Ver trailer</a>
+                    <a href={filtro.trailerUrl} target='_blank' rel="noreferrer"
+                        className={styles.trailer_style}
+                    >Ver trailer</a>
                 {/* </div> */}
             </div>
         </Layout>

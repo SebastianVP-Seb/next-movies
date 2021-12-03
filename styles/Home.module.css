@@ -1,7 +1,7 @@
 .navbar {
   height: 10%;
   z-index: 3;
-  width: 100%;
+  /* width: 100%; */
   background-color: rgb(0, 0, 0);
   /* display: flex;
   flex-wrap: wrap; */
@@ -30,8 +30,8 @@
 }
 
 .slider {
-  height: 80vh;
-  width: 100%;
+  height: 90%vh;
+  /* width: 100%; */
 }
 
 .slider_movie_info {
@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   color: aliceblue;
-  height: 100%;
+  height: 80%;
 }
 
 .h3 {
@@ -57,8 +57,8 @@
   justify-content: center;
   align-content: center;
   width: 80%;
-  margin: 1rem auto;
-  height: 70vh;
+  margin: .5rem auto;
+  height: 90vh;
   color: aliceblue;
 
   flex-direction: column;
@@ -94,12 +94,14 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-content: center;
-  align-items: center;
-  margin: 2rem 3rem;
+  align-items: flex-start;
+  margin: 1rem .5rem;
   justify-items: center;
-  gap: 2rem;
+  gap: 1rem;
   /* background-color: gray; */
   color: aliceblue;
+
+  /* width: 100%; */
 
   @media screen and (max-width: 800px) {
     
@@ -113,3 +115,23 @@
   height: 100%;
 }
 
+.trailer_style {
+  font-family: 'Architects Daughter', cursive;
+  background-color: rgb(34, 39, 39);
+  padding: .1rem .1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.h4 {
+  margin: 0%;
+  margin-bottom: .5rem;
+}
+
+.img {
+  /* object-fit: cover; */
+  height: 100%;
+  display: block;
+  width: 100%;
+}
