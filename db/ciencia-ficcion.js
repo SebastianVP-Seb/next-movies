@@ -2,12 +2,21 @@ import { v4 as uuidv4 } from 'uuid';
 
 const CIENCIA_FICCION=[
   {
-  id: uuidv4(),
-  title: 'Al filo del mañana',
-  imageUrl: '/ciencia-ficcion/Al_filo_del_ma.jpg',
-  trailerUrl:'https://www.youtube.com/watch?v=j2pcppI4HBg',
-  overview: 'En un futuro no muy lejano, una raza de alienígenas invade la Tierra y ninguna fuerza militar es capaz de impedirlo. Al comandante William Cage, quien nunca ha entrado en combate, le encargan una misión casi suicida en la que pierde la vida.',
-  year: '2014'
+    id: uuidv4(),
+    title: 'Sin rumbo',
+    imageUrl: '/ciencia-ficcion/rumbo.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=Uu8-bt3cjrU',
+    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia. Obligada a enfrentarse a su difícil relación con su pareja desde hace años, Matteo, y el futuro de su hija pequeña, Adrienne debe revivir y reimaginar los eventos de su pasado reciente, además de resolver el misterio de su accidente. Sólo podrá hacerlo entrando en un mundo de oscuridad con Matteo mientras trata de buscar pistas que le permitan entender qué fue exactamente lo que falló entre ambos.',
+    year: '2020',
+    background: '/ciencia-ficcion/rumbo.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'Al filo del mañana',
+    imageUrl: '/ciencia-ficcion/Al_filo_del_ma.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=j2pcppI4HBg',
+    overview: 'En un futuro no muy lejano, una raza de alienígenas invade la Tierra y ninguna fuerza militar es capaz de impedirlo. Al comandante William Cage, quien nunca ha entrado en combate, le encargan una misión casi suicida en la que pierde la vida.',
+    year: '2014'
   },
   {
     id: uuidv4(),

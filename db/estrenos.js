@@ -3,6 +3,69 @@ import { v4 as uuidv4 } from 'uuid';
 const ESTRENOS=[
   {
     id: uuidv4(),
+    title: 'Soul',
+    imageUrl: '/animadas/soul.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=3QIdlo4uIVg',
+    overview: 'Un profesor de música que ha perdido la pasión se transporta fuera de su cuerpo al "Gran Antes" y debe encontrar el camino de regreso con la ayuda de un alma infantil que aprende sobre sí misma.',
+    year: '2020',
+    background: '/animadas/soul.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'La razón de estar contigo: un nuevo viaje',
+    imageUrl: '/animadas/razon2.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=7mljHYAgE1M',
+    overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnarse en otros perros para cumplir su cometido.',
+    year: '2019',
+    background: '/animadas/razon2.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'Actividad paranormal: el familiar más cercano',
+    imageUrl: '/terror/paranormal.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=SHlO1Xdq_5U',
+    overview: 'Margot, una directora de documentales, se dirige a una comunidad amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece.',
+    year: '2021',
+    background: '/terror/paranormal.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'Last Christmas',
+    imageUrl: '/romance/last.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=RtD4ohmFitY',
+    overview: 'Kate es una mujer joven que suele tomar siempre la decisión menos acertada. ¿Su último error? Haber aceptado un trabajo como elfo de Santa Claus en un centro comercial. Sin embargo, el destino la lleva a conocer a Tom, circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.',
+    year: '2019',
+    background: '/romance/last.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'Sin rumbo',
+    imageUrl: '/ciencia-ficcion/rumbo.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=Uu8-bt3cjrU',
+    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia. Obligada a enfrentarse a su difícil relación con su pareja desde hace años, Matteo, y el futuro de su hija pequeña, Adrienne debe revivir y reimaginar los eventos de su pasado reciente, además de resolver el misterio de su accidente. Sólo podrá hacerlo entrando en un mundo de oscuridad con Matteo mientras trata de buscar pistas que le permitan entender qué fue exactamente lo que falló entre ambos.',
+    year: '2020',
+    background: '/ciencia-ficcion/rumbo.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'Para toda la vida',
+    imageUrl: '/romance/toda.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=y1E5Gcin7-k',
+    overview: 'Jenn Carter y Sol Chau están enamorados, tienen toda la vida por delante y piensan casarse dentro de unos meses. Pero, en diciembre, a Sol le diagnostican un cáncer terminal, que trunca todos sus planes, haciendo imposible que la boda se celebre en verano. En una carrera contrarreloj, los amigos y la familia de la pareja organizan una colecta en internet para recaudar fondos y conseguir que tengan la boda soñada en tan solo dos semanas. Su gesto desata una ola de generosidad y preocupación entre un gran número de personas que deciden celebrar con ellos el poder del amor. Mientras tanto, la relación de Jenn y Sol se hace aún más profunda, recordándonos que la fuerza del amor verdadero no tiene límites.',
+    year: '2020',
+    background: '/romance/toda.jpg'
+  },
+  {
+  id: uuidv4(),
+  title: 'Fast&Furious 4',
+  imageUrl: '/accion/f&f4.jpg',
+  trailerUrl:'https://www.youtube.com/watch?v=mUXekPixdNo',
+  overview: 'El ex convicto Dominic Toretto se une a su viejo adversario, Brian O Conner, que ahora trabaja para el FBI en Los Ángeles, con el fin de infiltrarse en una organización criminal que se dedica a introducir heroína en la ciudad.',
+  year: '2009',
+  background: '/accion/f&f4.jpg',
+},
+  {
+    id: uuidv4(),
     title: 'Ron da error',
     imageUrl: '/animadas/ron.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=1U69Vp_9DSA',
@@ -21,93 +84,12 @@ const ESTRENOS=[
   },
   {
     id: uuidv4(),
-    title: 'Escape Room 2: reto mortal',
-    trailerUrl:'https://www.youtube.com/watch?v=zXA0nrukD0c',
-    overview: 'Continuación del éxito de terror "Escape Room" sobre una edición mortal del divertido juego en el que los participantes tienen que librarse de acertijos en las habitaciones.',
-    year: '2021',
-    background:'/ciencia-ficcion/scape_room2.jpg',
-    imageUrl: '/ciencia-ficcion/scape_room2.jpg',
-  },
-  {
-    id: uuidv4(),
-    title: 'It: cap 2',
-    imageUrl: '/terror/it_2.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=woh3bk8DXVo',
-    overview:'En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del Club de los Perdedores, que ahora están más alejados unos de otros.',
-    background:'/terror/it_2.jpg',
-    year: '2019'
-  },
-  {
-    id: uuidv4(),
-    title: 'Greenland: el último refugio',
-    imageUrl: '/suspenso/greenland.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=eRtTQGolbv8',
-    overview: 'Una familia emprende un viaje para encontrar un refugio seguro cuando un gran cometa arremete contra la Tierra. A medida que el apocalipsis se acerca, la increíble travesía termina en una batalla de último minuto para llegar a puerto seguro.',
-    year: '2020',
-    background: '/suspenso/greenland.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'Historias de miedo',
-    imageUrl: '/terror/Historias_de_miedo_para_contar_en_la_oscuridad.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=OwshkT4C3RM',
-    overview:'La familia Bellows y su sombra ha aumentado en Mill Valley, ya que las historias de terror de la joven Sarah empiezan a cobrar realidad. Un grupo de adolescentes debe resolver el misterio que rodea a una serie de repentinas y macabras muertes que suceden en su pueblo.',
-    background:'/terror/Historias_de_miedo_para_contar_en_la_oscuridad.jpg',
-    year: '2019'
-  },
-  {
-    id: uuidv4(),
-    title: 'Unidos',
-    imageUrl: '/animadas/unidos.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=_9ULoCgJ3-E',
-    overview: 'Ambientado en un mundo de fantasía suburbana, dos hermanos elfos adolescentes, Ian y Barley Lightfood, se embarcan en una aventura en la que se proponen descubrir si existe aún algo de magia en el mundo que les permita pasar un último día con su padre, que falleció cuando ellos eran aún muy pequeños como para poder recordarlo.',
-    year: '2020',
-    background: '/animadas/unidos.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'La purga por siempre',
-    imageUrl: '/accion/La_Purga_Infinita.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=mtoH--n1jtE',
-    overview: 'Adela y su marido, Juan, viven en Texas, donde él trabaja como peón de rancho para la adinerada familia Tucker. En la mañana después de la Purga, una banda de asesinos enmascarados ataca a los Tucker, obligando a ambas familias a unirse y luchar.',
-    year: '2021',
-    background:'/accion/La_Purga_Infinita.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'Tiempo',
-    imageUrl: '/ciencia-ficcion/tiempo.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=Yv3UERl1DA0',
-    overview: 'Unas paradisíacas vacaciones se convierten en una pesadilla cuando una familia visita una playa donde, por alguna razón, envejecen rápidamente, reduciendo su vida entera a un solo día.',
-    year: '2021',
-    background:'/ciencia-ficcion/tiempo.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'Un lugar en silencio 2',
-    imageUrl: '/suspenso/Un-lugar-en-silencio-parte-2.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=oTkl2wz-TnQ',
-    overview: 'La familia Abbott ahora se enfrenta a los terrores del mundo exterior. Forzados a aventurarse en lo desconocido, se dan cuenta de que las criaturas que cazan por el sonido no son las únicas amenazas que acechan más allá del camino de arena.',
-    year: '2021',
-    background:'/suspenso/Un-lugar-en-silencio-parte-2.jpg'
-  },
-  {
-    id: uuidv4(),
     title: 'No respires 2',
     imageUrl: '/suspenso/NORESPIRES2.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=nzo29FyE1ps',
     overview: 'Un veterano ciego debe usar su entrenamiento militar para salvar a un joven huérfano de un grupo de matones que irrumpen en su casa.',
     year: '2021',
     background:'/suspenso/NORESPIRES2.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'La guerra del mañana',
-    imageUrl: '/ciencia-ficcion/guerra_manana.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=pbyJSTQlf5I',
-    overview: 'Un grupo de viajeros en el tiempo se transporta desde el año 2051 para entregar un mensaje urgente: la humanidad está perdiendo la guerra mundial contra unos alienígenas. La única esperanza es que los ciudadanos del presente se unan a la lucha.',
-    year: '2021',
-    background:'/ciencia-ficcion/guerra_manana.jpg'
   },
 ];
 

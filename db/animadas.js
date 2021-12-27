@@ -3,6 +3,24 @@ import { v4 as uuidv4 } from 'uuid';
 const ANIMADAS=[
   {
     id: uuidv4(),
+    title: 'Soul',
+    imageUrl: '/animadas/soul.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=3QIdlo4uIVg',
+    overview: 'Un profesor de música que ha perdido la pasión se transporta fuera de su cuerpo al "Gran Antes" y debe encontrar el camino de regreso con la ayuda de un alma infantil que aprende sobre sí misma.',
+    year: '2020',
+    background: '/animadas/soul.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'La razón de estar contigo: un nuevo viaje',
+    imageUrl: '/animadas/razon2.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=7mljHYAgE1M',
+    overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnarse en otros perros para cumplir su cometido.',
+    year: '2019',
+    background: '/animadas/razon2.jpg'
+  },
+  {
+    id: uuidv4(),
     title: 'Unidos',
     imageUrl: '/animadas/unidos.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=_9ULoCgJ3-E',
