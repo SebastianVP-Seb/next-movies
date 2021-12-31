@@ -6,7 +6,7 @@ const CIENCIA_FICCION=[
     title: 'In Time - El Precio Del Mañana',
     imageUrl: '/accion/time.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=cf7UMfYAcoc',
-    overview: 'El hallazgo de una fórmula contra el envejecimiento trae consigo no sólo superpoblación, sino también la transformación del tiempo en moneda de cambio que permite sufragar tanto lujos como necesidades. Los ricos pueden vivir para siempre, pero los demás tendrán que negociar cada minuto de vida, y los pobres mueren jóvenes. Después de conseguir, por casualidad, una inmensa cantidad de tiempo Will Salas (Justin Timberlake), un joven obrero, será perseguido por unos policías corruptos conocidos como “los guardianes del tiempo”. En su huida Will tomará una rehén (Amanda Seyfried), una joven de una familia adinerada.',
+    overview: 'El hallazgo de una fórmula contra el envejecimiento trae consigo no sólo superpoblación, sino también la transformación del tiempo en moneda de cambio. Los ricos pueden vivir para siempre, pero los demás tendrán que negociar cada minuto de vida.',
     year: '2011',
     background: '/accion/time.jpg'
   },
@@ -15,7 +15,7 @@ const CIENCIA_FICCION=[
     title: 'Sin rumbo',
     imageUrl: '/ciencia-ficcion/rumbo.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=Uu8-bt3cjrU',
-    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia. Obligada a enfrentarse a su difícil relación con su pareja desde hace años, Matteo, y el futuro de su hija pequeña, Adrienne debe revivir y reimaginar los eventos de su pasado reciente, además de resolver el misterio de su accidente. Sólo podrá hacerlo entrando en un mundo de oscuridad con Matteo mientras trata de buscar pistas que le permitan entender qué fue exactamente lo que falló entre ambos.',
+    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia.',
     year: '2020',
     background: '/ciencia-ficcion/rumbo.jpg'
   },

@@ -15,7 +15,7 @@ const ESTRENOS=[
     title: 'La razón de estar contigo: un nuevo viaje',
     imageUrl: '/animadas/razon2.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=7mljHYAgE1M',
-    overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnarse en otros perros para cumplir su cometido.',
+    overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnar en otros perros.',
     year: '2019',
     background: '/animadas/razon2.jpg'
   },
@@ -24,7 +24,7 @@ const ESTRENOS=[
     title: 'Actividad paranormal: el familiar más cercano',
     imageUrl: '/terror/paranormal.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=SHlO1Xdq_5U',
-    overview: 'Margot, una directora de documentales, se dirige a una comunidad amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece.',
+    overview: 'Margot, se dirige a una comunidad amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece.',
     year: '2021',
     background: '/terror/paranormal.jpg'
   },
@@ -33,7 +33,7 @@ const ESTRENOS=[
     title: 'In Time - El Precio Del Mañana',
     imageUrl: '/accion/time.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=cf7UMfYAcoc',
-    overview: 'El hallazgo de una fórmula contra el envejecimiento trae consigo no sólo superpoblación, sino también la transformación del tiempo en moneda de cambio que permite sufragar tanto lujos como necesidades. Los ricos pueden vivir para siempre, pero los demás tendrán que negociar cada minuto de vida, y los pobres mueren jóvenes. Después de conseguir, por casualidad, una inmensa cantidad de tiempo Will Salas (Justin Timberlake), un joven obrero, será perseguido por unos policías corruptos conocidos como “los guardianes del tiempo”. En su huida Will tomará una rehén (Amanda Seyfried), una joven de una familia adinerada.',
+    overview: 'El hallazgo de una fórmula contra el envejecimiento trae consigo no sólo superpoblación, sino también la transformación del tiempo en moneda de cambio. Los ricos pueden vivir para siempre, pero los demás tendrán que negociar cada minuto de vida.',
     year: '2011',
     background: '/accion/time.jpg'
   },
@@ -42,7 +42,7 @@ const ESTRENOS=[
     title: 'Last Christmas',
     imageUrl: '/romance/last.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=RtD4ohmFitY',
-    overview: 'Kate es una mujer joven que suele tomar siempre la decisión menos acertada. ¿Su último error? Haber aceptado un trabajo como elfo de Santa Claus en un centro comercial. Sin embargo, el destino la lleva a conocer a Tom, circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.',
+    overview: 'Kate es una mujer joven que suele tomar siempre la decisión menos acertada. Sin embargo, el destino la lleva a conocer a Tom, circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.',
     year: '2019',
     background: '/romance/last.jpg'
   },
@@ -51,7 +51,7 @@ const ESTRENOS=[
     title: 'Sin rumbo',
     imageUrl: '/ciencia-ficcion/rumbo.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=Uu8-bt3cjrU',
-    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia. Obligada a enfrentarse a su difícil relación con su pareja desde hace años, Matteo, y el futuro de su hija pequeña, Adrienne debe revivir y reimaginar los eventos de su pasado reciente, además de resolver el misterio de su accidente. Sólo podrá hacerlo entrando en un mundo de oscuridad con Matteo mientras trata de buscar pistas que le permitan entender qué fue exactamente lo que falló entre ambos.',
+    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia.',
     year: '2020',
     background: '/ciencia-ficcion/rumbo.jpg'
   },
@@ -60,7 +60,7 @@ const ESTRENOS=[
     title: 'Para toda la vida',
     imageUrl: '/romance/toda.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=y1E5Gcin7-k',
-    overview: 'Jenn Carter y Sol Chau están enamorados, tienen toda la vida por delante y piensan casarse dentro de unos meses. Pero, en diciembre, a Sol le diagnostican un cáncer terminal, que trunca todos sus planes, haciendo imposible que la boda se celebre en verano. En una carrera contrarreloj, los amigos y la familia de la pareja organizan una colecta en internet para recaudar fondos y conseguir que tengan la boda soñada en tan solo dos semanas. Su gesto desata una ola de generosidad y preocupación entre un gran número de personas que deciden celebrar con ellos el poder del amor. Mientras tanto, la relación de Jenn y Sol se hace aún más profunda, recordándonos que la fuerza del amor verdadero no tiene límites.',
+    overview: 'Jenn Carter y Sol Chau están enamorados. Pero, en diciembre, a Sol le diagnostican un cáncer terminal.',
     year: '2020',
     background: '/romance/toda.jpg'
   },

@@ -6,7 +6,7 @@ const TERROR=[
     title: 'Actividad paranormal: el familiar más cercano',
     imageUrl: '/terror/paranormal.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=SHlO1Xdq_5U',
-    overview: 'Margot, una directora de documentales, se dirige a una comunidad amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece.',
+    overview: 'Margot, se dirige a una comunidad amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece.',
     year: '2021',
     background: '/terror/paranormal.jpg'
   },

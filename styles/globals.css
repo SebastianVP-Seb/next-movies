@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: rgba(0, 0, 0, 0.555);
+  background-color: black;
   /* width: 100%; */
   /* height: auto; */
 }
@@ -18,4 +18,28 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.h2 {
+  margin-top: .5rem;
+  color: aquamarine;
+  text-align: center;
+}
+
+.h3 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-family: 'Shizuru', cursive;
+  color: aquamarine;
+}
+
+.p{
+  margin-bottom: .5rem;
+}
+
+.contenedor_slider {
+  height: 83vh;
+  width: 100%;
 }

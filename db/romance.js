@@ -6,7 +6,7 @@ const ROMANCE=[
     title: 'Last Christmas',
     imageUrl: '/romance/last.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=RtD4ohmFitY',
-    overview: 'Kate es una mujer joven que suele tomar siempre la decisión menos acertada. ¿Su último error? Haber aceptado un trabajo como elfo de Santa Claus en un centro comercial. Sin embargo, el destino la lleva a conocer a Tom, circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.',
+    overview: 'Kate es una mujer joven que suele tomar siempre la decisión menos acertada. Sin embargo, el destino la lleva a conocer a Tom, circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.',
     year: '2019',
     background: '/romance/last.jpg'
   },
@@ -15,7 +15,7 @@ const ROMANCE=[
     title: 'Para toda la vida',
     imageUrl: '/romance/toda.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=y1E5Gcin7-k',
-    overview: 'Jenn Carter y Sol Chau están enamorados, tienen toda la vida por delante y piensan casarse dentro de unos meses. Pero, en diciembre, a Sol le diagnostican un cáncer terminal, que trunca todos sus planes, haciendo imposible que la boda se celebre en verano. En una carrera contrarreloj, los amigos y la familia de la pareja organizan una colecta en internet para recaudar fondos y conseguir que tengan la boda soñada en tan solo dos semanas. Su gesto desata una ola de generosidad y preocupación entre un gran número de personas que deciden celebrar con ellos el poder del amor. Mientras tanto, la relación de Jenn y Sol se hace aún más profunda, recordándonos que la fuerza del amor verdadero no tiene límites.',
+    overview: 'Jenn Carter y Sol Chau están enamorados. Pero, en diciembre, a Sol le diagnostican un cáncer terminal.',
     year: '2020',
     background: '/romance/toda.jpg'
   },

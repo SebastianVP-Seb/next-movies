@@ -21,7 +21,10 @@ function movieProfile({query}) {
         <Layout>
             {/* style={{backgroundImage: `url(${filtro.imageUrl})`}} */}
 
-            <Head><link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"/></Head>
+            <Head>
+                <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bad+Script&family=Cormorant+Garamond:ital,wght@1,300&family=Island+Moments&family=Licorice&family=Pushster&family=Shizuru&display=swap" rel="stylesheet" />
+            </Head>
 
             <div className={styles.contenedorImagen} >
                 {/* <div className={styles.div_imagen} >
@@ -30,9 +33,9 @@ function movieProfile({query}) {
 
                 {/* </div> */}
                 {/* <div className={styles.imagen_datos}> */}
-                    <h2>{filtro.title}</h2>
-                    <h3>{filtro.year}</h3>
-                    <p>{filtro.overview}</p>
+                    <h2 className='h2' >{filtro.title}</h2>
+                    <h3 className='h3' >{filtro.year}</h3>
+                    <p className='p' >{filtro.overview}</p>
                     <a href={filtro.trailerUrl} target='_blank' rel="noreferrer"
                         className={styles.trailer_style}
                     >Ver trailer</a>

@@ -15,7 +15,7 @@ const ANIMADAS=[
     title: 'La razón de estar contigo: un nuevo viaje',
     imageUrl: '/animadas/razon2.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=7mljHYAgE1M',
-    overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnarse en otros perros para cumplir su cometido.',
+    overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnar en otros perros.',
     year: '2019',
     background: '/animadas/razon2.jpg'
   },
