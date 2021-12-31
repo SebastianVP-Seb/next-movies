@@ -7,7 +7,7 @@ function Slider() {
     return (
         <div className='contenedor_slider' >
 
-            <Carousel  >
+            <Carousel autoplay >
                 {
                     ESTRENOS.map((item)=>{
                         return (
@@ -35,7 +35,6 @@ function Movie({movie}) {
                         <div className={styles.slider_movie_datos}>
                             <h3 className={styles.h3} >{title}</h3>
                             <p>{overview}</p>
-                            <a href={trailerUrl}>Ver trailer</a>
                         </div>
                     </div>
             </div>

@@ -12,16 +12,17 @@
   justify-items: center;
   align-items: center;
   align-items: center;
-  color: rgb(99, 91, 212);
+  color: rgb(175, 149, 245);
 
   font-family: 'Architects Daughter', cursive;
 }
 
 .navbar_a {
-  /* width: 25%; */
+  /* width: 65%; */
   display: flex;
   justify-content: center;
   align-content: center;
+  /* background-color: aquamarine; */
 }
 
 .slider {
