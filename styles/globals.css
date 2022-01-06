@@ -45,3 +45,51 @@ a {
   height: 83vh;
   width: 100%;
 }
+
+/* .nav_img {
+  fill: aqua;
+} */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  margin: 0 1.1rem;
+}
+
+.nav_title {
+  color: azure;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.nav_input {
+  visibility: hidden;
+  display: none;
+}
+
+.nav_input:checked + .nav_menu {
+  clip-path: circle(100% at center);
+}
+
+.nav_menu {
+  z-index: 7;
+  background-color: blueviolet;
+  /* display: none; */
+  position: fixed;
+  left: 0%;
+  top: 10vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-direction: column;
+  clip-path: circle(0 at center);
+  transition: all ease .7s;
+}
+
+.nav_img {
+  width: 2rem;
+  height: 2rem;
+}
