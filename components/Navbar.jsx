@@ -9,7 +9,10 @@ function Navbar() {
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet"></link>
+<<<<<<< HEAD
+                <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet" />
+=======
+>>>>>>> ffc66ff89c3402ad2be5209356d58dac9d6eda6a
             </Head>
 
             <div className="nav">
