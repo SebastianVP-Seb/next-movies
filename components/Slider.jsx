@@ -32,10 +32,10 @@ function Movie({movie}) {
                 style={{backgroundImage:`url('${background}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
                 
                     <div className={styles.slider_movie_info} >
-                        <div className={styles.slider_movie_datos}>
+                        {/* <div className={styles.slider_movie_datos}>
                             <h3 className={styles.h3} >{title}</h3>
                             <p>{overview}</p>
-                        </div>
+                        </div> */}
                     </div>
             </div>
         </div>

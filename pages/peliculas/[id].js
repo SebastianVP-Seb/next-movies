@@ -24,6 +24,7 @@ function movieProfile({query}) {
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bad+Script&family=Cormorant+Garamond:ital,wght@1,300&family=Island+Moments&family=Licorice&family=Pushster&family=Shizuru&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet"/>
             </Head>
 
             <div className={styles.contenedorImagen} >
