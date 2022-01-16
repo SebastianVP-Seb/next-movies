@@ -3,6 +3,15 @@ import { v4 as uuidv4 } from 'uuid';
 const CIENCIA_FICCION=[
   {
     id: uuidv4(),
+    title: 'Desafío Total',
+    imageUrl: '/ciencia-ficcion/total.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=qJEgIxPkdB4',
+    overview: 'El obrero Douglas Quaid necesita unas vacaciones de su vida ordinaria y visita Rekall, una compañía que puede transformar los sueños en recuerdos reales. Pensando que esos recuerdos como súper-espía son su boleto, Quaid se somete al procedimiento, pero las cosas salen mal.',
+    year: '2012',
+    background: '/ciencia-ficcion/total.jpg'
+  },
+  {
+    id: uuidv4(),
     title: 'In Time - El Precio Del Mañana',
     imageUrl: '/accion/time.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=cf7UMfYAcoc',

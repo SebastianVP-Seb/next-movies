@@ -3,6 +3,15 @@ import { v4 as uuidv4 } from 'uuid';
 const ANIMADAS=[
   {
     id: uuidv4(),
+    title: 'Hotel Transylvania: transformanía',
+    imageUrl: '/animadas/ht4.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=J5Xp3Flbj9k',
+    overview: 'El nuevo y misterioso invento de Van Helsing transforma a Drac y sus amigos en humanos, y a Johnny en un monstruo. Con sus nuevos cuerpos, Drac y la manada deben encontrar la manera de revertirlo antes de que se se vuelva permanente.',
+    year: '2022',
+    background: '/animadas/ht4.jpg'
+  },
+  {
+    id: uuidv4(),
     title: 'Soul',
     imageUrl: '/animadas/soul.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=3QIdlo4uIVg',

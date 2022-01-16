@@ -3,6 +3,23 @@ import { v4 as uuidv4 } from 'uuid';
 const TERROR=[
   {
     id: uuidv4(),
+    title: 'Resident Evil: Bienvenidos a Raccoon City',
+    imageUrl: '/terror/residenterc.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=-YHlSBR5nmQ',
+    overview: 'Los supervivientes intentan descubrir la verdad detrás de la malvada Umbrella Corporation. Mientras, luchan contra zombis sedientos de sangre en los páramos de Raccoon City.',
+    year: '2021',
+    background: '/terror/residenterc.jpg'
+  },  {
+    id: uuidv4(),
+    title: 'Antlers: Espíritus oscuros',
+    imageUrl: '/terror/antlers.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=jnhOGsfuCLc',
+    overview: 'En Antlers, una pequeña ciudad de Oregón, una profesora y su hermano, el sheriff de la localidad, empiezan a investigar la conducta de un estudiante misterioso y distante. A medida que lo van conociendo, descubren que el joven esconde un peligroso secreto.',
+    year: '2021',
+    background: '/terror/antlers.jpg'
+  }, 
+  {
+    id: uuidv4(),
     title: 'Actividad paranormal: el familiar más cercano',
     imageUrl: '/terror/paranormal.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=SHlO1Xdq_5U',

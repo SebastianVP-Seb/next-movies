@@ -3,6 +3,41 @@ import { v4 as uuidv4 } from 'uuid';
 const ESTRENOS=[
   {
     id: uuidv4(),
+    title: 'Hotel Transylvania: transformanía',
+    imageUrl: '/animadas/ht4.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=J5Xp3Flbj9k',
+    overview: 'El nuevo y misterioso invento de Van Helsing transforma a Drac y sus amigos en humanos, y a Johnny en un monstruo. Con sus nuevos cuerpos, Drac y la manada deben encontrar la manera de revertirlo antes de que se se vuelva permanente.',
+    year: '2022',
+    background: '/animadas/ht4.jpg'
+  },
+  {
+    id: uuidv4(),
+    title: 'Resident Evil: Bienvenidos a Raccoon City',
+    imageUrl: '/terror/residenterc.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=-YHlSBR5nmQ',
+    overview: 'Los supervivientes intentan descubrir la verdad detrás de la malvada Umbrella Corporation. Mientras, luchan contra zombis sedientos de sangre en los páramos de Raccoon City.',
+    year: '2021',
+    background: '/terror/residenterc.jpg'
+  },  {
+    id: uuidv4(),
+    title: 'Antlers: Espíritus oscuros',
+    imageUrl: '/terror/antlers.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=jnhOGsfuCLc',
+    overview: 'En Antlers, una pequeña ciudad de Oregón, una profesora y su hermano, el sheriff de la localidad, empiezan a investigar la conducta de un estudiante misterioso y distante. A medida que lo van conociendo, descubren que el joven esconde un peligroso secreto.',
+    year: '2021',
+    background: '/terror/antlers.jpg'
+  }, 
+  {
+    id: uuidv4(),
+    title: 'Desafío Total',
+    imageUrl: '/ciencia-ficcion/total.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=qJEgIxPkdB4',
+    overview: 'El obrero Douglas Quaid necesita unas vacaciones de su vida ordinaria y visita Rekall, una compañía que puede transformar los sueños en recuerdos reales. Pensando que esos recuerdos como súper-espía son su boleto, Quaid se somete al procedimiento, pero las cosas salen mal.',
+    year: '2012',
+    background: '/ciencia-ficcion/total.jpg'
+  },
+  {
+    id: uuidv4(),
     title: 'Soul',
     imageUrl: '/animadas/soul.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=3QIdlo4uIVg',
@@ -30,15 +65,6 @@ const ESTRENOS=[
   },
   {
     id: uuidv4(),
-    title: 'In Time - El Precio Del Mañana',
-    imageUrl: '/accion/time.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=cf7UMfYAcoc',
-    overview: 'El hallazgo de una fórmula contra el envejecimiento trae consigo no sólo superpoblación, sino también la transformación del tiempo en moneda de cambio. Los ricos pueden vivir para siempre, pero los demás tendrán que negociar cada minuto de vida.',
-    year: '2011',
-    background: '/accion/time.jpg'
-  },
-  {
-    id: uuidv4(),
     title: 'Last Christmas',
     imageUrl: '/romance/last.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=RtD4ohmFitY',
@@ -48,58 +74,13 @@ const ESTRENOS=[
   },
   {
     id: uuidv4(),
-    title: 'Sin rumbo',
-    imageUrl: '/ciencia-ficcion/rumbo.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=Uu8-bt3cjrU',
-    overview: 'Tras sufrir un traumático accidente, Adrienne se encuentra desorientada en una especie de limbo, atrapada en el tiempo y observando pasar la vida desde la distancia.',
-    year: '2020',
-    background: '/ciencia-ficcion/rumbo.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'Para toda la vida',
-    imageUrl: '/romance/toda.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=y1E5Gcin7-k',
-    overview: 'Jenn Carter y Sol Chau están enamorados. Pero, en diciembre, a Sol le diagnostican un cáncer terminal.',
-    year: '2020',
-    background: '/romance/toda.jpg'
-  },
-  {
-  id: uuidv4(),
-  title: 'Fast&Furious 4',
-  imageUrl: '/accion/f&f4.jpg',
-  trailerUrl:'https://www.youtube.com/watch?v=mUXekPixdNo',
-  overview: 'El ex convicto Dominic Toretto se une a su viejo adversario, Brian O Conner, que ahora trabaja para el FBI en Los Ángeles, con el fin de infiltrarse en una organización criminal que se dedica a introducir heroína en la ciudad.',
-  year: '2009',
-  background: '/accion/f&f4.jpg',
-},
-  {
-    id: uuidv4(),
     title: 'Ron da error',
     imageUrl: '/animadas/ron.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=1U69Vp_9DSA',
     overview: 'Ambientada en un mundo donde los robots se han convertido en los mejores amigos de los niños, Ron’s Gone Wrong cuenta la historia de un niño de 11 años que descubre que su amigo robot no funciona del todo.',
     year: '2020',
     background: '/animadas/ron.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'Venom: Carnage liberado',
-    imageUrl: '/accion/venom2.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=F4Ygcigj0Gk',
-    overview:'Después de encontrar un cuerpo anfitrión en el periodista de investigación Eddie Brock, el simbionte alienígena debe enfrentarse a un nuevo enemigo, Carnage, el alter ego del asesino en serie Cletus Kasady.',
-    background:'/accion/venom2.jpg',
-    year: '2021'
-  },
-  {
-    id: uuidv4(),
-    title: 'No respires 2',
-    imageUrl: '/suspenso/NORESPIRES2.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=nzo29FyE1ps',
-    overview: 'Un veterano ciego debe usar su entrenamiento militar para salvar a un joven huérfano de un grupo de matones que irrumpen en su casa.',
-    year: '2021',
-    background:'/suspenso/NORESPIRES2.jpg'
-  },
+  }
 ];
 
 export default ESTRENOS;
