@@ -3,6 +3,15 @@ import { v4 as uuidv4 } from 'uuid';
 const CIENCIA_FICCION=[
   {
     id: uuidv4(),
+    title: 'The Matrix Resurrections',
+    imageUrl: '/ciencia-ficcion/matrix4.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=GZ4GPOSQ6-g',
+    overview: 'Thomas Anderson lleva una vida cómoda como una eminencia dentro del mundo de los videojuegos, pero tiene problemas para discernir entre lo que es realidad y lo que no lo es. Thomas deberá decidir si sigue al conejo blanco una vez más.',
+    year: '2021',
+    background: '/ciencia-ficcion/matrix4.jpg'
+  },
+  {
+    id: uuidv4(),
     title: 'Desafío Total',
     imageUrl: '/ciencia-ficcion/total.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=qJEgIxPkdB4',

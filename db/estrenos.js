@@ -29,6 +29,15 @@ const ESTRENOS=[
   }, 
   {
     id: uuidv4(),
+    title: 'The Matrix Resurrections',
+    imageUrl: '/ciencia-ficcion/matrix4.jpg',
+    trailerUrl:'https://www.youtube.com/watch?v=GZ4GPOSQ6-g',
+    overview: 'Thomas Anderson lleva una vida cómoda como una eminencia dentro del mundo de los videojuegos, pero tiene problemas para discernir entre lo que es realidad y lo que no lo es. Thomas deberá decidir si sigue al conejo blanco una vez más.',
+    year: '2021',
+    background: '/ciencia-ficcion/matrix4.jpg'
+  },
+  {
+    id: uuidv4(),
     title: 'Desafío Total',
     imageUrl: '/ciencia-ficcion/total.jpg',
     trailerUrl:'https://www.youtube.com/watch?v=qJEgIxPkdB4',
@@ -53,15 +62,6 @@ const ESTRENOS=[
     overview: 'Ethan y su joven nieta CJ viven en una granja de Michigan con su perro Bailey. Cuando la madre de CJ decide llevarse a su hija, Bailey intentará acompañar siempre a la pequeña, aunque eso signifique reencarnar en otros perros.',
     year: '2019',
     background: '/animadas/razon2.jpg'
-  },
-  {
-    id: uuidv4(),
-    title: 'Actividad paranormal: el familiar más cercano',
-    imageUrl: '/terror/paranormal.jpg',
-    trailerUrl:'https://www.youtube.com/watch?v=SHlO1Xdq_5U',
-    overview: 'Margot, se dirige a una comunidad amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece.',
-    year: '2021',
-    background: '/terror/paranormal.jpg'
   },
   {
     id: uuidv4(),
